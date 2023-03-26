@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  position: relative;
+}
+
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 25px;
+  gap: 10px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.icon {
+  width: 25px;
+}
+
+.align-right {
+  margin-left: auto;
+  /* width: 20px; */
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+.item {
+  position: relative;
+}
+.item-img {
+  width: 100%;
+}
+
+.caption {
+  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.img-banner {
+  position: absolute;
+  background-color: #cd6858;
+  padding: 10px 20px;
+  color: whitesmoke;
+  top: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  left: 0;
+  font-weight: 600;
+}
+
+button {
+  align-self: center;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.chatbox-bg {
+  width: 40px;
+  height: 40px;
+  background-color: #dda15e;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+  display: flex;
+  position: fixed; /*fixed throughout the body  */
+  bottom: 6px;
+  right: 6px;
+}
+.chatbox-img {
+  width: 50%;
+  /* position: fixed; */
+  margin: auto;
+}
+
+footer {
+  background-color: #373636;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+}
+
+.foot {
+  color: white;
+  margin-top: 60px;
+}
